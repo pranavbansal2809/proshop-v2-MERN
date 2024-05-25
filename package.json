@@ -13,7 +13,9 @@
   "author": "Pranav Bansal",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
