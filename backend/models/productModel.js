@@ -1,4 +1,4 @@
-import mongoose, { mongo } from "mongoose";
+import mongoose from "mongoose";
 
 const reviewSchema = mongoose.Schema({
     user:{
@@ -68,6 +68,6 @@ const productSchema = new mongoose.Schema({
     timestamps:true
 });
 
-const products = mongoose.model("Product", productSchema);
+const Product = mongoose.model("Product", productSchema);
 
 export default Product;
